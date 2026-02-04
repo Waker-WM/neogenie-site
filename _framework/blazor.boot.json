@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Yazid2",
   "resources": {
-    "hash": "sha256-uXrnNBhJ+HbXDJRG4M3C3dXnSLq4B0LO2hzKQxRbGOM=",
+    "hash": "sha256-XtyTVxFDxBhjWFglFy9iL7wH8Tun2VW8ivnJooVq2p4=",
     "fingerprinting": {
       "Blazored.LocalStorage.rtee5ama0k.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Components.qcp37vh7us.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -46,7 +46,7 @@
       "System.Threading.n5ppejuuhz.wasm": "System.Threading.wasm",
       "System.7mkjnfwul0.wasm": "System.wasm",
       "System.Private.CoreLib.tjrq1qrvc5.wasm": "System.Private.CoreLib.wasm",
-      "Yazid2.a9s1pbvaba.wasm": "Yazid2.wasm",
+      "Yazid2.2bz5pidaa9.wasm": "Yazid2.wasm",
       "dotnet.native.p1cagcp2co.js": "dotnet.native.js",
       "dotnet.native.i1oqsqf709.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -111,7 +111,7 @@
       "System.Text.RegularExpressions.ped3ggelj8.wasm": "sha256-odaXg8HDoY4Dbyhuic2Jj4jOp1K6G+SZ2lV/7KkHWQs=",
       "System.Threading.n5ppejuuhz.wasm": "sha256-ZVqAdmVQkqedPOVid8yORJq6/P4I+NlvR19QR4PIQfY=",
       "System.7mkjnfwul0.wasm": "sha256-H4K9w0OHWwZCaMDfVwQjW0dSqnnS/iuCkysBB+Q2c3A=",
-      "Yazid2.a9s1pbvaba.wasm": "sha256-Tnrrey5l7MYU9jRqTtF+zNTZttdPcoRCwVBnxDCOX54="
+      "Yazid2.2bz5pidaa9.wasm": "sha256-/tIEJRTtv94VhUNuT4xN3d8hOAajseRGM1PS6lsVi5U="
     }
   },
   "cacheBootResources": true,
