@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- Important: Increment the version parameter whenever you update MudBlazor to prevent caching issues -->
+    <link href="_content/MudBlazor/MudBlazor.min.css?v=1" rel="stylesheet" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoGénie</title>
+    <base href="/neogenie-site/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- If you add any scoped CSS files, uncomment the following to load them
+    <link href="Yazid2.styles.css" rel="stylesheet" /> -->
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+</head>
+
+<body>
+    <script>
+        window.setDirection = function (culture) {
+            const rtlCultures = ['ar'];
+            const dir = rtlCultures.includes(culture) ? 'rtl' : 'ltr';
+            document.documentElement.setAttribute('dir', dir);
+        };
+    </script>
+
+    <script>
+        window.blazorCulture = {
+            get: function () {
+                const saved = localStorage.getItem('blazorCulture');
+                if (saved) return saved;
+
+                const browserLang = navigator.language || navigator.userLanguage || 'en';
+                const supported = ['en', 'fr', 'ar'];
+                return supported.find(l => browserLang.toLowerCase().startsWith(l)) || 'en';
+            },
+            set: function (culture) {
+                localStorage.setItem('blazorCulture', culture);
+            }
+        };
+    </script>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
+    <script>
+        window.getAspectRatio = () => {
+            return window.innerWidth / window.innerHeight;
+        };
+    </script>
+    <script src="js/screenHelper.js"></script>
+</body>
+
+</html>
