@@ -139,15 +139,15 @@ h1:focus {
     }
 
 .study-card::after {
-    background-image: url("images/etude.jpg");
+    background-image: url("../images/etude.jpg");
 }
 
 .expert-card::after {
-    background-image: url("images/Exper.jpg");
+    background-image: url("../images/Exper.jpg");
 }
 
 .design-card::after {
-    background-image: url("images/Consep.jpg");
+    background-image: url("../images/Consep.jpg");
 }
 
 .service-card h3,
