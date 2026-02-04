@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "BsfoFnNm",
+  "version": "mZEavVDW",
   "assets": [
     {
       "hash": "sha256-mcJY5fUYnNHrbcTulAQfyH0/3UwHTUD8s15n37yUJso=",
@@ -246,7 +246,7 @@ self.assetsManifest = {
       "url": "images/pxfuel.jpg"
     },
     {
-      "hash": "sha256-qiDEYGlbTIqFGMSTgxV2e1e1FKXqO14qrtB84o3lpWE=",
+      "hash": "sha256-/+d+fJH/5YcqXFz7Ijl8XGEHVHBKQobhSVFARd1pLiE=",
       "url": "index.html"
     },
     {
