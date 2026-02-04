@@ -139,7 +139,7 @@ h1:focus {
     }
 
 .study-card::after {
-    background-image: url('images/etude.jpg');
+    background-image: url("../images/etude.jpg");
 }
 
 .expert-card::after {
